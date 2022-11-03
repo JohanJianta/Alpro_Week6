@@ -164,12 +164,12 @@ public class JohanRJ_0806022210005_Alpro_Nomor_3 {
                                 pilihan = input.nextInt();
                                 System.out.println("");
                             
-                                do {
+                                do { //looping input
                                     System.out.print("Masukkan angka ke-"+i+" : ");
                                     angka = input.nextInt();
                                     System.out.println("");
                                 
-                                    if (i == 1) { //looping input
+                                    if (i == 1) {
                                         hasil = angka * angka - hasil;
                                     } else {
                                         hasil = hasil - angka * angka;
